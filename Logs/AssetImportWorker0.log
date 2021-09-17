@@ -1,0 +1,748 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'ko' Physical Memory: 8068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/USER/Documents/GitHub/NitoriWare
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65467
+Successfully changed project path to: C:/Users/USER/Documents/GitHub/NitoriWare
+C:/Users/USER/Documents/GitHub/NitoriWare
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 473.12 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/NitoriWare/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e92)
+    Vendor:   
+    VRAM:     4034 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007349 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 126.53 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Mono: successfully reloaded assembly
+- Completed reload, in  4.338 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4338ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (584ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (168ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (127ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.649847 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.08 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.674 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3679ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (3400ms)
+			LoadAssemblies (2470ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3313 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.6 MB.
+System memory in use after: 133.8 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 3708.
+Total: 11.254700 ms (FindLiveObjects: 0.575400 ms CreateObjectMapping: 0.301100 ms MarkObjects: 10.274200 ms  DeleteObjects: 0.101400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/kappa.png
+  artifactKey: Guid(c7ad539858c3af649912bf5f11bb3993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kappa.png using Guid(c7ad539858c3af649912bf5f11bb3993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cb1389b6e7ff2148a31555bf6cccdc') in 0.111459 seconds 
+  Import took 0.118565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/KasenPets_KasenArm.png
+  artifactKey: Guid(b8f0b9b5866cec642bc78841a837e5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KasenPets_KasenArm.png using Guid(b8f0b9b5866cec642bc78841a837e5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e2aafede0ab64a00824fcb61a36a23') in 0.064060 seconds 
+  Import took 0.072435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.559023 seconds.
+  path: Assets/Resources/Microgames/ReimuDodge.asset
+  artifactKey: Guid(28dd2096e62c4b94ea370641661c17a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/ReimuDodge.asset using Guid(28dd2096e62c4b94ea370641661c17a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c090326c8e855ebec7568658fc89d42') in 0.012453 seconds 
+  Import took 0.018151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039697 seconds.
+  path: Assets/Resources/Microgames/ReimuDodge.asset
+  artifactKey: Guid(28dd2096e62c4b94ea370641661c17a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/ReimuDodge.asset using Guid(28dd2096e62c4b94ea370641661c17a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c090326c8e855ebec7568658fc89d42') in 0.003802 seconds 
+  Import took 0.010214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065821 seconds.
+  path: Assets/Resources/Microgames/IcePath.asset
+  artifactKey: Guid(06dc4a875dddce949a49881804e1d812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/IcePath.asset using Guid(06dc4a875dddce949a49881804e1d812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4666c209973566fcd470689bf42b204f') in 0.083350 seconds 
+  Import took 0.091136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Resources/Microgames/KogasaScare.asset
+  artifactKey: Guid(2da371b3b102f2d41bea3bbe7729e0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/KogasaScare.asset using Guid(2da371b3b102f2d41bea3bbe7729e0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b847031b477d72732fc9e3f472239e') in 0.067525 seconds 
+  Import took 0.075128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Resources/Microgames/MamiPoser.asset
+  artifactKey: Guid(7f4b27a45a4997f40be45fb5dcf77ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/MamiPoser.asset using Guid(7f4b27a45a4997f40be45fb5dcf77ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee6059541ae7e95d39a0e710b179e75') in 0.054340 seconds 
+  Import took 0.060435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Resources/Microgames/KeineMath.asset
+  artifactKey: Guid(bd0abab2ca3bb3847a42a3c5d5ae40e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/KeineMath.asset using Guid(bd0abab2ca3bb3847a42a3c5d5ae40e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758cbbacda56398e2e03e8a1d4ec2c05') in 0.061771 seconds 
+  Import took 0.069975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Resources/Microgames/PaperPlane.asset
+  artifactKey: Guid(bf69e4a1979845f4d9c32050412c9cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/PaperPlane.asset using Guid(bf69e4a1979845f4d9c32050412c9cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5f0c4c02aa2343e9193f518c65efd1') in 0.061515 seconds 
+  Import took 0.068320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Resources/Microgames/PhotoGame.asset
+  artifactKey: Guid(41622a5bfdd7bdc4580287ceb61e7a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/PhotoGame.asset using Guid(41622a5bfdd7bdc4580287ceb61e7a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd247469e432c523686fa7cc6a6947e88') in 0.054548 seconds 
+  Import took 0.059840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Resources/Microgames/RuukotoSweep.asset
+  artifactKey: Guid(b6c8237133bbe9242b218da1fa3a194e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/RuukotoSweep.asset using Guid(b6c8237133bbe9242b218da1fa3a194e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa881770cab9c0a45e111bf6aa5b3aa') in 0.052910 seconds 
+  Import took 0.058437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Resources/Microgames/RockPaperSatori.asset
+  artifactKey: Guid(42a9f1a8191f15b47815f26d5a982a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/RockPaperSatori.asset using Guid(42a9f1a8191f15b47815f26d5a982a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8516f8892bc5c616dfe51d98f861204') in 0.051519 seconds 
+  Import took 0.056757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Resources/Microgames/OkuuFire.asset
+  artifactKey: Guid(c7082258266df24428f3dec2552e0cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/OkuuFire.asset using Guid(c7082258266df24428f3dec2552e0cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078478f0f9d1183b0f05dc42da12770d') in 0.054058 seconds 
+  Import took 0.059477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Resources/Microgames/Potion.asset
+  artifactKey: Guid(45255d62370a0a345a5dd765df133b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/Potion.asset using Guid(45255d62370a0a345a5dd765df133b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319ea043f9686721d1bbc26225efb9ee') in 0.053132 seconds 
+  Import took 0.060546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Resources/Microgames/PuppetString.asset
+  artifactKey: Guid(81fa8f2cdeb1c1a4f960a1388d999e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/PuppetString.asset using Guid(81fa8f2cdeb1c1a4f960a1388d999e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983123ac60010961a647ddbc76073205') in 0.051885 seconds 
+  Import took 0.057632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Resources/Microgames/Spaceship.asset
+  artifactKey: Guid(ec569e2be0c80d843a71f49b3c808d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/Spaceship.asset using Guid(ec569e2be0c80d843a71f49b3c808d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc99a53cc01065e7da7eb6ac849599a') in 0.053475 seconds 
+  Import took 0.058690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Resources/Microgames/TrainTracks.asset
+  artifactKey: Guid(fba258235f0d13b4e8424d1deea8cc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/TrainTracks.asset using Guid(fba258235f0d13b4e8424d1deea8cc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbd512f4c0cc737199bbd8306213d68') in 0.055923 seconds 
+  Import took 0.061666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Resources/Microgames/MaskPuzzle.asset
+  artifactKey: Guid(6c5dc9266a13cbd42898b8a330ab3066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/MaskPuzzle.asset using Guid(6c5dc9266a13cbd42898b8a330ab3066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8142a9e213fe278180c2948a695ee8a2') in 0.053082 seconds 
+  Import took 0.058322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Resources/Microgames/SeijaSpin.asset
+  artifactKey: Guid(9b69dd021b8d6b44a8bea965bf6fc574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/SeijaSpin.asset using Guid(9b69dd021b8d6b44a8bea965bf6fc574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce05afc228ffadfa52e36a3bda1be311') in 0.050913 seconds 
+  Import took 0.056229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Resources/Microgames/RockBand.asset
+  artifactKey: Guid(b8ba15b8e862fe045b47e22d7935d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/RockBand.asset using Guid(b8ba15b8e862fe045b47e22d7935d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c988f6c78368b17d605fa39d31676c49') in 0.055419 seconds 
+  Import took 0.061626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Resources/Microgames/ZombieParts.asset
+  artifactKey: Guid(87337f6681e35394b885bc6d6c23c088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/ZombieParts.asset using Guid(87337f6681e35394b885bc6d6c23c088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea19f9a186bfefee4db83512099ffc5') in 0.056424 seconds 
+  Import took 0.061881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Resources/Microgames/MarisaJizou.asset
+  artifactKey: Guid(09603329add5fe84da251d08bdb253fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/MarisaJizou.asset using Guid(09603329add5fe84da251d08bdb253fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320c584b3c1a7397aaf93dc7ed43a1da') in 0.051886 seconds 
+  Import took 0.057318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Resources/Microgames/YuukaWater.asset
+  artifactKey: Guid(3f5d9fc9a538998468f7d9179d08a4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/YuukaWater.asset using Guid(3f5d9fc9a538998468f7d9179d08a4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e63f1ad99f7989ce877796e1a0c7ee0') in 0.055230 seconds 
+  Import took 0.060784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Resources/Microgames/PaperThief.asset
+  artifactKey: Guid(857952df442db40488649ce339ba1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/PaperThief.asset using Guid(857952df442db40488649ce339ba1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db43b9a9f31c2bbc2e4f3050b357ec3') in 0.066705 seconds 
+  Import took 0.072506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Resources/Microgames/NueAbduct.asset
+  artifactKey: Guid(2189c945831b6e94db2f05cd48d27e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/NueAbduct.asset using Guid(2189c945831b6e94db2f05cd48d27e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec95b56ee59c34823b61ef45947aa374') in 0.055878 seconds 
+  Import took 0.062218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Resources/Microgames/KogasaLand.asset
+  artifactKey: Guid(f0e8629f85bb384468ac0bc256632706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/KogasaLand.asset using Guid(f0e8629f85bb384468ac0bc256632706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfa2599170cc5dcfa6078e4638c3e0a') in 0.056605 seconds 
+  Import took 0.061846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Resources/Microgames/KagerouCut.asset
+  artifactKey: Guid(044070c87e749ca41a193a53721b1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/KagerouCut.asset using Guid(044070c87e749ca41a193a53721b1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2c45250b273e0c93910cfb571371ea') in 0.061119 seconds 
+  Import took 0.066712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Resources/Microgames/MilkPour.asset
+  artifactKey: Guid(51631742b129c5443a81b3fddc94e184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/MilkPour.asset using Guid(51631742b129c5443a81b3fddc94e184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19232f96dcb14871e93c23cb8e1e6192') in 0.056725 seconds 
+  Import took 0.063012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Resources/Microgames/TransformSequence.asset
+  artifactKey: Guid(16c00e0d30c9b934db28f54f3fc9527d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/TransformSequence.asset using Guid(16c00e0d30c9b934db28f54f3fc9527d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6de086e0c83bf37f93b1d721c4bf72') in 0.054267 seconds 
+  Import took 0.059874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Resources/Microgames/YukariCake.asset
+  artifactKey: Guid(13daffc8909d0e945a71ac85f40a633e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/YukariCake.asset using Guid(13daffc8909d0e945a71ac85f40a633e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39647b619b625f6446bf56911f69635') in 0.055706 seconds 
+  Import took 0.060941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Resources/Microgames/KasenPets.asset
+  artifactKey: Guid(510dcb9273d2e14488422d4cb038d49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/KasenPets.asset using Guid(510dcb9273d2e14488422d4cb038d49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ba1337d6d90676f1def9d5118a3d12') in 0.053657 seconds 
+  Import took 0.059065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Resources/Microgames/MochiPound.asset
+  artifactKey: Guid(478cb2828e1457f40b40de1856619199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/MochiPound.asset using Guid(478cb2828e1457f40b40de1856619199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c88f3f56c8485ab5d10a2a0eda29ed') in 0.054451 seconds 
+  Import took 0.059773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Resources/Microgames/MoonSoccer.asset
+  artifactKey: Guid(eb20b4ba71356dd4f91d55f9083f18bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/MoonSoccer.asset using Guid(eb20b4ba71356dd4f91d55f9083f18bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd237d86a1a2d73d351ef281ddc4cfc2d') in 0.061994 seconds 
+  Import took 0.067338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Resources/Microgames/TouhouSort.asset
+  artifactKey: Guid(334d1c5da2047924686805f95e3d8245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/TouhouSort.asset using Guid(334d1c5da2047924686805f95e3d8245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb2f4507d4c2c9a8a89292f2bc4978d') in 0.058695 seconds 
+  Import took 0.064769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Resources/Microgames/RapBattle.asset
+  artifactKey: Guid(2f3ea0f7781bddc47b711fc8b814283e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/RapBattle.asset using Guid(2f3ea0f7781bddc47b711fc8b814283e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d2aab8cdeaff4a76783eb3732fb190') in 0.056898 seconds 
+  Import took 0.062817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Resources/Microgames/KnifeDodge.asset
+  artifactKey: Guid(f3a251c307542904b8b9e56735b7cd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/KnifeDodge.asset using Guid(f3a251c307542904b8b9e56735b7cd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f4e0752e8287c6962096e2054825eb') in 0.055333 seconds 
+  Import took 0.060851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Resources/Microgames/SumiWheel.asset
+  artifactKey: Guid(ffe045f28109d0445af564540019e08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/SumiWheel.asset using Guid(ffe045f28109d0445af564540019e08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b3c1702f50f2c9dec972d63ccc68c5') in 0.055766 seconds 
+  Import took 0.061062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Resources/Microgames/KyoukoEcho.asset
+  artifactKey: Guid(ff546dece6993ca48a4aa8cddeb457c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/KyoukoEcho.asset using Guid(ff546dece6993ca48a4aa8cddeb457c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc68013518c3fd10419cc2c5bdd3c49') in 0.063533 seconds 
+  Import took 0.070307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Resources/Microgames/Spider.asset
+  artifactKey: Guid(e64690db44aab75419dd806d8a9c09e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/Spider.asset using Guid(e64690db44aab75419dd806d8a9c09e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfd4744beeb6be021c0582be60cd8b6') in 0.055827 seconds 
+  Import took 0.063100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Resources/Microgames/TraceShape.asset
+  artifactKey: Guid(2d57ab4599124ad4298acec1fe811fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/TraceShape.asset using Guid(2d57ab4599124ad4298acec1fe811fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95e8f4160e6ef108cac3693f862131a') in 0.070475 seconds 
+  Import took 0.077777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Resources/Microgames/Wrench.asset
+  artifactKey: Guid(703bae964710c4d4d94145daa2221572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/Wrench.asset using Guid(703bae964710c4d4d94145daa2221572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e578486666f219b976e617aa7c56773') in 0.058923 seconds 
+  Import took 0.065205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Resources/Microgames/RabbitTrap.asset
+  artifactKey: Guid(335cfdbfad57d634e974248bf60adfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/RabbitTrap.asset using Guid(335cfdbfad57d634e974248bf60adfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c897dbd615f3f73a19f322b54efa094e') in 0.052058 seconds 
+  Import took 0.057042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Resources/Microgames/MystiaServe.asset
+  artifactKey: Guid(1674ab1ba1035d1498677c71e03056c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/MystiaServe.asset using Guid(1674ab1ba1035d1498677c71e03056c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ac80fe7a045458167519689eac98a8') in 0.054110 seconds 
+  Import took 0.059607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Resources/Microgames/MoneyTrap.asset
+  artifactKey: Guid(e4eb154d0c327a0498462efd5687c03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/MoneyTrap.asset using Guid(e4eb154d0c327a0498462efd5687c03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bd41402142112ce5111b4419b30e7a') in 0.051567 seconds 
+  Import took 0.056683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Resources/Microgames/MovieMaker.asset
+  artifactKey: Guid(b32fd4607a980604d9d5fd9e51d16793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/MovieMaker.asset using Guid(b32fd4607a980604d9d5fd9e51d16793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649dbad49d1f3cccc776a565cf49dcc2') in 0.053888 seconds 
+  Import took 0.059081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Resources/Microgames/YoumuSlash.asset
+  artifactKey: Guid(a955d07f89efd2143a8d1a116e8147a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/YoumuSlash.asset using Guid(a955d07f89efd2143a8d1a116e8147a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff33ae7d6472b24265cc8930f593ad2a') in 0.014431 seconds 
+  Import took 0.020041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Resources/Microgames/SagumeLie.asset
+  artifactKey: Guid(9d0202a8f5937d14199ca30fb499f43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/SagumeLie.asset using Guid(9d0202a8f5937d14199ca30fb499f43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b3f02fd24d84a90389cad5a5818121') in 0.070471 seconds 
+  Import took 0.075814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Resources/Microgames/MasterSparkCode.asset
+  artifactKey: Guid(55a1ecf854fbc6a48a71fd6409a866de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/MasterSparkCode.asset using Guid(55a1ecf854fbc6a48a71fd6409a866de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd1afc944e8890fe776960adc40a65a') in 0.054955 seconds 
+  Import took 0.061373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Resources/Microgames/SuikaShake.asset
+  artifactKey: Guid(abd73a0c0fc280c46b39d6ea91a3897d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/SuikaShake.asset using Guid(abd73a0c0fc280c46b39d6ea91a3897d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f823bfc65b46326e396407d26cd01d6') in 0.060192 seconds 
+  Import took 0.068054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Resources/Microgames/RemiCover.asset
+  artifactKey: Guid(03e88c914e4f2934f929245dd1a99139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/RemiCover.asset using Guid(03e88c914e4f2934f929245dd1a99139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6e5057b6ebb4d8a2f1d3a18cfb54bd') in 0.052100 seconds 
+  Import took 0.057332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Resources/Microgames/KaguyaMemory.asset
+  artifactKey: Guid(88a6390ffcf96924c856b1dab0c805d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/KaguyaMemory.asset using Guid(88a6390ffcf96924c856b1dab0c805d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9a1226c26901727c45bc79acdf0b64') in 0.051567 seconds 
+  Import took 0.056656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Resources/Microgames/YuugiBalance.asset
+  artifactKey: Guid(9d153eb881f896446bd448df3df9fdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/YuugiBalance.asset using Guid(9d153eb881f896446bd448df3df9fdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284d92cf75bf70681c82c29e1c97f484') in 0.052009 seconds 
+  Import took 0.057491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Resources/Microgames/Slingshot.asset
+  artifactKey: Guid(000edc22204effc449cac89c2d7e243c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/Slingshot.asset using Guid(000edc22204effc449cac89c2d7e243c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a33da564643637f1e87c6b6008a9b0') in 0.054610 seconds 
+  Import took 0.062788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Resources/Microgames/NitoriLook.asset
+  artifactKey: Guid(ad6faf6b43934854bbc55fe3f5d668a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/NitoriLook.asset using Guid(ad6faf6b43934854bbc55fe3f5d668a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6253d4e8d73aac56da5ab438b3db99') in 0.062130 seconds 
+  Import took 0.068577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Resources/Microgames/OniPunch.asset
+  artifactKey: Guid(6541776e0ffd147438b8452f7d8f50a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/OniPunch.asset using Guid(6541776e0ffd147438b8452f7d8f50a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc6780cd4a6c78200a5c05b6727d23a') in 0.064913 seconds 
+  Import took 0.070088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.603903 seconds.
+  path: Assets/Resources/Microgames/HecShapes.asset
+  artifactKey: Guid(37799f8658837b34683f0793935932cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/HecShapes.asset using Guid(37799f8658837b34683f0793935932cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8676bd25c85e3b0bf73996f4c8c9269c') in 0.056453 seconds 
+  Import took 0.065164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Resources/Microgames/HinaSpin.asset
+  artifactKey: Guid(1dd95f9e9beffe2449961806cdbd16a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Microgames/HinaSpin.asset using Guid(1dd95f9e9beffe2449961806cdbd16a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5097f0999649e64a460e8d8824736af9') in 0.055854 seconds 
+  Import took 0.061405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 248.965686 seconds.
+  path: Assets/Microgames/ReimuDodge/Scenes
+  artifactKey: Guid(2cbd1dc00987aa94b8d704d731198661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Scenes using Guid(2cbd1dc00987aa94b8d704d731198661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e598671fd19ec5f7919a0245415c53') in 0.012285 seconds 
+  Import took 0.019418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.684351 seconds.
+  path: Assets/Microgames/ReimuDodge/Scenes/ReimuDodge1.unity
+  artifactKey: Guid(43f701abd2c33d248aeffbed44eda233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Scenes/ReimuDodge1.unity using Guid(43f701abd2c33d248aeffbed44eda233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa46a030d90a06ea482404dedcef675') in 0.010753 seconds 
+  Import took 0.017733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.570382 seconds.
+  path: Assets/Microgames/ReimuDodge/Sprites
+  artifactKey: Guid(5ca67993be81bc64bb6841384d309075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Sprites using Guid(5ca67993be81bc64bb6841384d309075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce8e8670f9e51a037260d417c0f0f75') in 0.010894 seconds 
+  Import took 0.023189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.802104 seconds.
+  path: Assets/Microgames/ReimuDodge/Sprites/ReimuDodge_Bullet.png
+  artifactKey: Guid(44f4b9ed9b67d3c4aa64fe395a791933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Sprites/ReimuDodge_Bullet.png using Guid(44f4b9ed9b67d3c4aa64fe395a791933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654ec22c6fa47dda1cb33014ee1faf77') in 0.017341 seconds 
+  Import took 0.023291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Microgames/ReimuDodge/Sprites/ReimuDodge_Reimu.png
+  artifactKey: Guid(18062bee245b47444930859c7f249044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Sprites/ReimuDodge_Reimu.png using Guid(18062bee245b47444930859c7f249044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950b5ccbecd3ad314c626dedc9dc2290') in 0.028587 seconds 
+  Import took 0.033321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.438738 seconds.
+  path: Assets/Microgames/ReimuDodge/Sprites/ReimuDodge_Reimu.png
+  artifactKey: Guid(18062bee245b47444930859c7f249044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Sprites/ReimuDodge_Reimu.png using Guid(18062bee245b47444930859c7f249044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3986537b3521842922247c0117166dc') in 0.015932 seconds 
+  Import took 0.021328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008209 seconds.
+  path: Assets/Microgames/ReimuDodge/Sprites/ReimuDodge_Reimu.png
+  artifactKey: Guid(18062bee245b47444930859c7f249044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Sprites/ReimuDodge_Reimu.png using Guid(18062bee245b47444930859c7f249044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3986537b3521842922247c0117166dc') in 0.024879 seconds 
+  Import took 0.032445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.129569 seconds.
+  path: Assets/Microgames/ReimuDodge/Sprites/ReimuDodge_Reimu.png
+  artifactKey: Guid(18062bee245b47444930859c7f249044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Sprites/ReimuDodge_Reimu.png using Guid(18062bee245b47444930859c7f249044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0251cbb798d4d09a34512470ad1517') in 0.022640 seconds 
+  Import took 0.029422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044466 seconds.
+  path: Assets/Microgames/ReimuDodge/Sprites/ReimuDodge_Reimu.png
+  artifactKey: Guid(18062bee245b47444930859c7f249044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Sprites/ReimuDodge_Reimu.png using Guid(18062bee245b47444930859c7f249044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0251cbb798d4d09a34512470ad1517') in 0.051901 seconds 
+  Import took 0.060048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.105427 seconds.
+  path: Assets/Microgames/ReimuDodge/Sprites/ReimuAnime.anim
+  artifactKey: Guid(58259bd03aabdb749a8d3ec273516701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Sprites/ReimuAnime.anim using Guid(58259bd03aabdb749a8d3ec273516701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaa1aa11a005156d2b24ec2acb62221') in 0.011313 seconds 
+  Import took 0.018226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.677630 seconds.
+  path: Assets/Microgames/ReimuDodge/Sprites/Rig.controller
+  artifactKey: Guid(97cab10ac27f77e409f34f5d2f6c5367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Sprites/Rig.controller using Guid(97cab10ac27f77e409f34f5d2f6c5367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c4783fbbe1e4dfdd331c58eb03db66') in 0.011395 seconds 
+  Import took 0.017995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.960667 seconds.
+  path: Assets/Microgames/ReimuDodge/Animations
+  artifactKey: Guid(4579692ab84787549b6b43ea71af5734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Animations using Guid(4579692ab84787549b6b43ea71af5734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb41965c397f8535b241351df09b5e4') in 0.019077 seconds 
+  Import took 0.032339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.282869 seconds.
+  path: Assets/Microgames/ReimuDodge/Animations/ReimuAnime.anim
+  artifactKey: Guid(58259bd03aabdb749a8d3ec273516701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Animations/ReimuAnime.anim using Guid(58259bd03aabdb749a8d3ec273516701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053d298d46583f73e09e6e05149c91d7') in 0.005434 seconds 
+  Import took 0.012918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.065575 seconds.
+  path: Assets/Microgames/ReimuDodge/Animations/Rig.controller
+  artifactKey: Guid(97cab10ac27f77e409f34f5d2f6c5367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Animations/Rig.controller using Guid(97cab10ac27f77e409f34f5d2f6c5367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33b3af50200d63fc5916499ca0df006') in 0.005886 seconds 
+  Import took 0.011791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.415253 seconds.
+  path: Assets/Microgames/ReimuDodge/Animations/ReimuDodgeRig.controller
+  artifactKey: Guid(97cab10ac27f77e409f34f5d2f6c5367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/ReimuDodge/Animations/ReimuDodgeRig.controller using Guid(97cab10ac27f77e409f34f5d2f6c5367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56df92706fc9aaa32092dc5f90ed656') in 0.018238 seconds 
+  Import took 0.026742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.620760 seconds.
+  path: Assets/Sprites/UI/Timer/Numbers/1.png
+  artifactKey: Guid(8ff1186f437a7bd4f9ebf0bdc463478c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Timer/Numbers/1.png using Guid(8ff1186f437a7bd4f9ebf0bdc463478c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f719eb177e6e72d292fbf88e2a0059') in 0.029620 seconds 
+  Import took 0.035291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Microgames/CupShuffle/Sprites/Tiny/CupShuffleTiny.png
+  artifactKey: Guid(66324f4ef1e9b5d4181ed6b9cbe53d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/CupShuffle/Sprites/Tiny/CupShuffleTiny.png using Guid(66324f4ef1e9b5d4181ed6b9cbe53d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1436ab061766a4c4124879bac38a3f04') in 0.084913 seconds 
+  Import took 0.093586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Microgames/CupShuffle/Sprites/Suwako/CupShuffleSuwakoHat.png
+  artifactKey: Guid(f4f8ab3f33973c04f887d0a81d3d15b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/CupShuffle/Sprites/Suwako/CupShuffleSuwakoHat.png using Guid(f4f8ab3f33973c04f887d0a81d3d15b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68489d4f81697db664c0223a932965b') in 0.048179 seconds 
+  Import took 0.054998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Microgames/CupShuffle/Sprites/Tiny/CupShuffleTinyCup.png
+  artifactKey: Guid(651652a300441284cac1b48580a7bb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/CupShuffle/Sprites/Tiny/CupShuffleTinyCup.png using Guid(651652a300441284cac1b48580a7bb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ab92d4a75a4566e2e273b98a36205d') in 0.041168 seconds 
+  Import took 0.050285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007741 seconds.
+  path: Assets/Microgames/CupShuffle/Sprites/Tiny/CupShuffleTinyCup.png
+  artifactKey: Guid(651652a300441284cac1b48580a7bb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Microgames/CupShuffle/Sprites/Tiny/CupShuffleTinyCup.png using Guid(651652a300441284cac1b48580a7bb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ab92d4a75a4566e2e273b98a36205d') in 0.038070 seconds 
+  Import took 0.045413 seconds .
+
